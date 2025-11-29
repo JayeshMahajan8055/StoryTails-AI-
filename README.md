@@ -1,3 +1,5 @@
+---
+
 # 🎬 StoryTails – AI Text-to-Video Story Generator
 
 StoryTails is an **AI-powered storytelling system** that transforms written stories into fully animated videos. It understands narrative flow, generates visual scenes, and adds synchronized voice narration to bring stories to life.
@@ -29,11 +31,11 @@ flowchart LR
     C --> E["Video Assembly (FFmpeg)"]
     D --> E
     E --> F["Final Animated Video"]
+```
 
+---
 
-...
-```## 🛠 Tech Stack
-
+## 🛠 Tech Stack
 
 | Component              | Technology                   |
 | ---------------------- | ---------------------------- |
@@ -85,19 +87,19 @@ OPENAI_API_KEY=your_openai_key
 COQUI_API_KEY=your_coqui_key
 ```
 
-Ensure these keys are active and not committed to Git.
+⚠ Ensure these keys are **not pushed to GitHub**.
 
 ---
 
 ## ▶️ Usage
 
-### Run with Streamlit UI
+### Run via Streamlit UI
 
 ```bash
 streamlit run main.py
 ```
 
-### Or run full pipeline manually:
+### Or run the full pipeline directly:
 
 ```bash
 python main.py
@@ -117,26 +119,27 @@ a glowing AI cube that spoke in an ancient language...
 ```
 
 **Output:**
-📌 LLM extracts scenes → 🎨 AI generates visuals → 🔊 XTTS voice narration is added → 🎬 Assembled into animated video.
+
+📌 LLM extracts scenes → 🎨 AI generates visuals → 🔊 XTTS narrates → 🎬 Final animated video assembled.
 
 ---
 
 ## 🚨 Limitations
 
-❗ High GPU demand (diffusion models)
-❗ Frame coherence may vary depending on prompt quality
-❗ TTS timing optimization still experimental
-❗ Processing takes time for long stories
+🔸 Requires GPU acceleration for image/video generation
+🔸 Character consistency may vary
+🔸 Takes time for longer inputs
+🔸 TTS synchronization may need fine tuning
 
 ---
 
-## 🧩 Future Improvements
+## 🔮 Future Improvements
 
-🔹 Real-time preview of generated frames
-🔹 Character memory & style locking
-🔹 Support for interactive branching stories
-🔹 Web deployment (HuggingFace, GPU Cloud)
-🔹 Subtitle auto-generation
+* Real-time video preview
+* Character appearance memory
+* Support for branching storylines
+* Web deployment (HuggingFace/GPU Cloud)
+* Automatic subtitle generation
 
 ---
 
@@ -145,8 +148,8 @@ a glowing AI cube that spoke in an ancient language...
 Contributions are welcome!
 
 1. Fork this repo
-2. Create a new branch: `feature/my-feature`
-3. Commit your enhancements
+2. Create a feature branch (`feature/my-feature`)
+3. Commit improvements
 4. Open a Pull Request 🚀
 
 ---
@@ -157,17 +160,19 @@ Contributions are welcome!
 AI/ML Engineer | Generative AI | Multimodal Systems
 📍 Pune, India
 🔗 GitHub: [JayeshMahajan8055](https://github.com/JayeshMahajan8055)
-💼 LinkedIn: *Add your profile link here*
-📧 Email: *Your email here*
+💼 LinkedIn: *Add your LinkedIn profile link here*
+📧 Email: *Add your email here*
 
 ---
 
 ## ⭐ Support
 
-If you like this project, please consider **starring ⭐ this repo** to support further development.
+If you found this project interesting, please **star ⭐ the repository** to support development.
 
 ---
 
 > *“Storytelling is humanity’s oldest art — StoryTails brings it to life with AI.”* 🚀
 
 ---
+
+ 
