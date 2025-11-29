@@ -31,7 +31,9 @@ flowchart LR
     E --> F["Final Animated Video"]
 
 
-## 🛠️ Tech Stack
+...
+```## 🛠 Tech Stack
+
 
 | Component              | Technology                   |
 | ---------------------- | ---------------------------- |
