@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Cache & generated files
+*.mp4
+*.wav
+*.jpg
+*.png
+*.json
+output/
+generated_videos/
+generated_audio/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env

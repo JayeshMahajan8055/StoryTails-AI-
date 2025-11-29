@@ -1,0 +1,6 @@
+file 'C:\Users\landg\OneDrive\Desktop\FInal_Project\temp_scenes\temp_scene_01.mp4'
+file 'C:\Users\landg\OneDrive\Desktop\FInal_Project\temp_scenes\temp_scene_02.mp4'
+file 'C:\Users\landg\OneDrive\Desktop\FInal_Project\temp_scenes\temp_scene_03.mp4'
+file 'C:\Users\landg\OneDrive\Desktop\FInal_Project\temp_scenes\temp_scene_04.mp4'
+file 'C:\Users\landg\OneDrive\Desktop\FInal_Project\temp_scenes\temp_scene_05.mp4'
+file 'C:\Users\landg\OneDrive\Desktop\FInal_Project\temp_scenes\temp_scene_06.mp4'
