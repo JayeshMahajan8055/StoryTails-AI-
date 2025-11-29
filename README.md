@@ -1,35 +1,37 @@
 
+---
+
 # 🎬 StoryTails – AI Text-to-Video Story Generator
 
-Transform written stories into **AI-generated animated videos** with scene extraction, visual generation, and synchronized narration.
+StoryTails is an **AI-powered storytelling system** that transforms written stories into fully animated videos. It understands narrative flow, generates visual scenes, and adds synchronized voice narration to bring stories to life.
 
-StoryTails is an advanced **multimodal AI system** that converts text into full animated sequences using **LLM-driven scene extraction, diffusion-based visual generation, and neural text-to-speech models**—all combined using FFmpeg.
+Using **LLM-based scene extraction (Llama 3)**, **diffusion-driven visual generation (SDXL, Stable Video Diffusion)**, and **neural speech synthesis (Coqui XTTS)**—all seamlessly assembled via **FFmpeg**—StoryTails automates the complete animation process.
 
 ---
 
 ## 🚀 Key Features
 
-✔ Converts **text stories into animated videos**
-✔ **Llama 3** for intelligent scene breakdown & narrative understanding
-✔ **SDXL and Stable Video Diffusion** for high-quality visual scene generation
-✔ **Coqui XTTS** for TTS narration (multilingual support)
-✔ **FFmpeg-based audio–video synchronization**
-✔ **Streamlit UI** for interaction, progress tracking, and video preview
-✔ Maintains **visual consistency of characters** across frames
-✔ Optimized prompt designs for coherent storytelling
+* 🎥 Converts **text stories into animated videos**
+* 🧠 **Llama 3** for scene extraction and narrative understanding
+* 🖼 **SDXL & Stable Video Diffusion** for high-quality visual generation
+* 🎙 **Coqui XTTS** for multilingual AI voice narration
+* 🎬 **FFmpeg** for synchronized audio–video assembly
+* 💻 **Streamlit UI** for interactive story input and preview
+* 🔁 Maintains visual consistency across frames
+* ⚙️ Optimized prompt flow for coherent storytelling
 
 ---
 
-## 🧠 AI Pipeline Overview
+## 🧠 AI Workflow
 
 ```mermaid
 flowchart LR
     A[Story Text Input] --> B[Scene Extraction (Llama 3)]
-    B --> C[Image/Video Generation (SDXL/Stable VD)]
-    B --> D[Speech Synthesis (Coqui XTTS)]
+    B --> C[Visual Generation (SDXL / Stable Video Diffusion)]
+    B --> D[Narration (Coqui XTTS)]
     C --> E[Video Assembly (FFmpeg)]
     D --> E
-    E --> F[Final Video Output]
+    E --> F[Final Animated Video]
 ```
 
 ---
@@ -170,15 +172,5 @@ If you like this project, please consider **starring ⭐ this repo** to support 
 ---
 
 > *“Storytelling is humanity’s oldest art — StoryTails brings it to life with AI.”* 🚀
-
----
-
-# 🏁 End of README
-
-Now:
-
-✔ Commit and push this README.md
-✔ Update GitHub description (you already have the perfect one)
-✔ Add tags
 
 ---
