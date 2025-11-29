@@ -1,21 +1,28 @@
-🎬 StoryTails – AI Text-to-Video Story Generator
 
-Transform written stories into AI-generated animated videos with scene extraction, visual generation, and synchronized narration.
+# 🎬 StoryTails – AI Text-to-Video Story Generator
 
-StoryTails is an advanced multimodal AI system that converts text into full animated sequences using LLM-driven scene extraction, diffusion-based visual generation, and neural text-to-speech models—all combined using FFmpeg.
+Transform written stories into **AI-generated animated videos** with scene extraction, visual generation, and synchronized narration.
 
-🚀 Key Features
+StoryTails is an advanced **multimodal AI system** that converts text into full animated sequences using **LLM-driven scene extraction, diffusion-based visual generation, and neural text-to-speech models**—all combined using FFmpeg.
 
-✔ Converts text stories into animated videos
-✔ Llama 3 for intelligent scene breakdown & narrative understanding
-✔ SDXL and Stable Video Diffusion for high-quality visual scene generation
-✔ Coqui XTTS for TTS narration (multilingual support)
-✔ FFmpeg-based audio–video synchronization
-✔ Streamlit UI for interaction, progress tracking, and video preview
-✔ Maintains visual consistency of characters across frames
+---
+
+## 🚀 Key Features
+
+✔ Converts **text stories into animated videos**
+✔ **Llama 3** for intelligent scene breakdown & narrative understanding
+✔ **SDXL and Stable Video Diffusion** for high-quality visual scene generation
+✔ **Coqui XTTS** for TTS narration (multilingual support)
+✔ **FFmpeg-based audio–video synchronization**
+✔ **Streamlit UI** for interaction, progress tracking, and video preview
+✔ Maintains **visual consistency of characters** across frames
 ✔ Optimized prompt designs for coherent storytelling
 
-🧠 AI Pipeline Overview
+---
+
+## 🧠 AI Pipeline Overview
+
+```mermaid
 flowchart LR
     A[Story Text Input] --> B[Scene Extraction (Llama 3)]
     B --> C[Image/Video Generation (SDXL/Stable VD)]
@@ -23,16 +30,26 @@ flowchart LR
     C --> E[Video Assembly (FFmpeg)]
     D --> E
     E --> F[Final Video Output]
+```
 
-🛠️ Tech Stack
-Component	Technology
-Scene Extraction	Llama 3
-Image/Video Generation	SDXL, Stable Video Diffusion
-Voice Generation	Coqui XTTS
-Synchronization	FFmpeg
-Interface	Streamlit
-Language	Python
-📂 Project Structure
+---
+
+## 🛠️ Tech Stack
+
+| Component              | Technology                   |
+| ---------------------- | ---------------------------- |
+| Scene Extraction       | Llama 3                      |
+| Image/Video Generation | SDXL, Stable Video Diffusion |
+| Voice Generation       | Coqui XTTS                   |
+| Synchronization        | FFmpeg                       |
+| Interface              | Streamlit                    |
+| Language               | Python                       |
+
+---
+
+## 📂 Project Structure
+
+```
 StoryTails/
 ├── main.py                  # Streamlit interface or pipeline starter
 ├── director.py              # Scene extraction & script logic
@@ -43,53 +60,78 @@ StoryTails/
 ├── output/                  # Final generated videos (ignored via .gitignore)
 ├── .gitignore
 └── README.md
+```
 
-📦 Installation
+---
+
+## 📦 Installation
+
+```bash
 git clone https://github.com/JayeshMahajan8055/StoryTails-AI-.git
 cd StoryTails-AI-
 python -m venv venv
 venv\Scripts\activate      # Windows
 # source venv/bin/activate # Mac/Linux
 pip install -r requirements.txt
+```
 
-🔐 Environment Setup
+---
 
-Create a .env file:
+## 🔐 Environment Setup
 
+Create a `.env` file:
+
+```ini
 OPENAI_API_KEY=your_openai_key
 COQUI_API_KEY=your_coqui_key
-
+```
 
 Ensure these keys are active and not committed to Git.
 
-▶️ Usage
-Run with Streamlit UI
+---
+
+## ▶️ Usage
+
+### Run with Streamlit UI
+
+```bash
 streamlit run main.py
+```
 
-Or run full pipeline manually:
+### Or run full pipeline manually:
+
+```bash
 python main.py
-
+```
 
 Then:
 
 📝 Write your story → 📸 Scenes generated → 🎙 Narration added → 🎞 Final video rendered.
 
-🧪 Example Story Input
+---
+
+## 🧪 Example Story Input
+
+```
 Once upon a time in a futuristic city, a young girl named Aira discovered 
 a glowing AI cube that spoke in an ancient language...
+```
 
-
-Output:
+**Output:**
 📌 LLM extracts scenes → 🎨 AI generates visuals → 🔊 XTTS voice narration is added → 🎬 Assembled into animated video.
 
-🚨 Limitations
+---
+
+## 🚨 Limitations
 
 ❗ High GPU demand (diffusion models)
 ❗ Frame coherence may vary depending on prompt quality
 ❗ TTS timing optimization still experimental
 ❗ Processing takes time for long stories
 
-🧩 Future Improvements
+---
+
+## 🧩 Future Improvements
 
 🔹 Real-time preview of generated frames
 🔹 Character memory & style locking
@@ -97,38 +139,46 @@ Output:
 🔹 Web deployment (HuggingFace, GPU Cloud)
 🔹 Subtitle auto-generation
 
-🤝 Contribution
+---
+
+## 🤝 Contribution
 
 Contributions are welcome!
 
-Fork this repo
+1. Fork this repo
+2. Create a new branch: `feature/my-feature`
+3. Commit your enhancements
+4. Open a Pull Request 🚀
 
-Create a new branch: feature/my-feature
+---
 
-Commit your enhancements
+## 📬 Contact
 
-Open a Pull Request 🚀
-
-📬 Contact
-
-Jayesh Mahajan
+**Jayesh Mahajan**
 AI/ML Engineer | Generative AI | Multimodal Systems
 📍 Pune, India
-🔗 GitHub: JayeshMahajan8055
+🔗 GitHub: [JayeshMahajan8055](https://github.com/JayeshMahajan8055)
+💼 LinkedIn: *Add your profile link here*
+📧 Email: *Your email here*
 
-💼 LinkedIn: Add your profile link here
-📧 Email: Your email here
+---
 
-⭐ Support
+## ⭐ Support
 
-If you like this project, please consider starring ⭐ this repo to support further development.
+If you like this project, please consider **starring ⭐ this repo** to support further development.
 
-“Storytelling is humanity’s oldest art — StoryTails brings it to life with AI.” 🚀
+---
 
-🏁 End of README
+> *“Storytelling is humanity’s oldest art — StoryTails brings it to life with AI.”* 🚀
+
+---
+
+# 🏁 End of README
 
 Now:
 
 ✔ Commit and push this README.md
 ✔ Update GitHub description (you already have the perfect one)
 ✔ Add tags
+
+---
