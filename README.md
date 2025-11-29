@@ -23,19 +23,12 @@ Using **LLM-based scene extraction (Llama 3)**, **diffusion-driven visual genera
 
 ```mermaid
 flowchart LR
-    A[Story Text Input]
-    B[Scene Extraction (Llama 3)]
-    C[Visual Generation (SDXL / Stable Video Diffusion)]
-    D[Narration (Coqui XTTS)]
-    E[Video Assembly (FFmpeg)]
-    F[Final Animated Video]
-
-    A --> B
-    B --> C
-    B --> D
-    C --> E
+    A["Story Text Input"] --> B["Scene Extraction (Llama 3)"]
+    B --> C["Visual Generation (SDXL / Stable Video Diffusion)"]
+    B --> D["Narration (Coqui XTTS)"]
+    C --> E["Video Assembly (FFmpeg)"]
     D --> E
-    E --> F
+    E --> F["Final Animated Video"]
 
 
 ## 🛠️ Tech Stack
