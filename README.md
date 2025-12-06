@@ -2,7 +2,7 @@
 
 # 🎬 StoryTails – AI Text-to-Video Story Generator
 
-StoryTails is an **AI-powered storytelling system** that transforms written stories into fully animated videos. It understands narrative flow, generates visual scenes, and adds synchronized voice narration to bring stories to life .
+StoryTails is an **AI-powered storytelling system** that transforms written stories into fully animated videos. It understands narrative flow, generates visual scenes, and adds synchronized voice narration to bring stories to life.
 
 Using **LLM-based scene extraction (Llama 3)**, **diffusion-driven visual generation (SDXL, Stable Video Diffusion)**, and **neural speech synthesis (Coqui XTTS)**—all seamlessly assembled via **FFmpeg**—StoryTails automates the complete animation process.
 
