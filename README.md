@@ -171,7 +171,7 @@ If you found this project interesting, please **star ⭐ the repository** to sup
 
 ---
 
-> *“Storytelling is humanity’s oldest art — StoryTails brings it to life with AI.”* 🚀
+> *“ Storytelling is humanity’s oldest art — StoryTails brings it to life with AI. ”* 🚀
 
 ---
 
